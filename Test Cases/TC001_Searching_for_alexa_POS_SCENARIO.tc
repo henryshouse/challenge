@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>See README-md file for more detailed information.
+
+Regards.</description>
+   <name>TC001_Searching_for_alexa_POS_SCENARIO</name>
+   <tag>HP01</tag>
+   <comment></comment>
+   <testCaseGuid>435613b3-f338-49e7-b16e-41a83239f3c4</testCaseGuid>
+</TestCaseEntity>
