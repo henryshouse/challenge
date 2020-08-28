@@ -23,6 +23,8 @@ WebUI.navigateToUrl('https://www.amazon.com/')
 
 WebUI.setText(findTestObject('Object Repository/Page_Amazoncom Alexa/Search_box'), 'Alexa')
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/Page_Amazoncom Alexa/Search_btn'))
 
 WebUI.click(findTestObject('Object Repository/Page_Amazoncom Alexa/a_2'))
@@ -31,8 +33,12 @@ WebUI.click(findTestObject('Object Repository/Page_Amazoncom Alexa/3rd_item'))
 
 WebUI.click(findTestObject('Object Repository/Page_Amazoncom Alexa/add_to_cart'))
 
-myObject = (findTestObject('Object Repository/Page_Amazoncom Alexa/Added_to_Cart_FLAG'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Amazoncom Alexa/Added_to_Cart_FLAG'), 'Added to Cart')
 
-myObject == 'Added to Cart'
+//FALSE POSITIVE CHECKER
+
+//myObject = (findTestObject('Object Repository/Page_Amazoncom Alexa/Added_to_Cart_FLAG'))
+
+//myObject == 'Added to CartX'
 
 //WebUI.closeBrowser()

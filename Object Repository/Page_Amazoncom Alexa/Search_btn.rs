@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;nav-search-submit-text&quot;]/input</value>
+         <value>//input[@value='Go']</value>
       </entry>
       <entry>
          <key>BASIC</key>

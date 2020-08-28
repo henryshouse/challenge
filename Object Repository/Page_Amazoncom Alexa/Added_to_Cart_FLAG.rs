@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//h1[@class='a-size-medium a-text-bold']</value>
+         <value>//*[@id=&quot;attachDisplayAddBaseAlert&quot;]/div/h4</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
