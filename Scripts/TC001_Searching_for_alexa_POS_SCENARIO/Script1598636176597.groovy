@@ -31,8 +31,7 @@ WebUI.click(findTestObject('Object Repository/Page_Amazoncom Alexa/3rd_item'))
 
 WebUI.click(findTestObject('Object Repository/Page_Amazoncom Alexa/add_to_cart'))
 
-
-myObject = (findTestObject('Object Repository/Page_Amazoncom Alexa/add_to_cart'))
+myObject = (findTestObject('Object Repository/Page_Amazoncom Alexa/Added_to_Cart_FLAG'))
 
 myObject == 'Added to Cart'
 
