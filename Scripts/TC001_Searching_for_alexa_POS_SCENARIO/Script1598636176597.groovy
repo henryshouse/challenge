@@ -36,4 +36,4 @@ myObject = (findTestObject('Object Repository/Page_Amazoncom Alexa/add_to_cart')
 
 myObject == 'Added to Cart'
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
