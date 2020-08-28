@@ -21,8 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Amazoncom Alexa/Search_box'), 
-    'Alexa')
+WebUI.setText(findTestObject('Object Repository/Page_Amazoncom Alexa/Search_box'), 'Alexa')
 
 WebUI.click(findTestObject('Object Repository/Page_Amazoncom Alexa/Search_btn'))
 
@@ -32,5 +31,9 @@ WebUI.click(findTestObject('Object Repository/Page_Amazoncom Alexa/3rd_item'))
 
 WebUI.click(findTestObject('Object Repository/Page_Amazoncom Alexa/add_to_cart'))
 
-WebUI.closeBrowser()
 
+myObject = (findTestObject('Object Repository/Page_Amazoncom Alexa/add_to_cart'))
+
+myObject == 'Added to Cart'
+
+WebUI.closeBrowser()
