@@ -15,4 +15,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.amazon.com/')
+
+WebUI.setText(findTestObject('Object Repository/Page_Amazoncom Alexa/Search_box'), 
+    'Alexa')
+
+WebUI.click(findTestObject('Object Repository/Page_Amazoncom Alexa/Search_btn'))
+
+WebUI.click(findTestObject('Object Repository/Page_Amazoncom Alexa/a_2'))
+
+WebUI.click(findTestObject('Object Repository/Page_Amazoncom Alexa/3rd_item'))
+
+WebUI.click(findTestObject('Object Repository/Page_Amazoncom Alexa/add_to_cart'))
+
+WebUI.closeBrowser()
 
