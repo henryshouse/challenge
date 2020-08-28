@@ -37,6 +37,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Amazoncom Alexa/A
 
 //FALSE POSITIVE CHECKER
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Amazoncom Alexa/Added_to_Cart_FLAG'), 'Added to CartX')
+
 //myObject = (findTestObject('Object Repository/Page_Amazoncom Alexa/Added_to_Cart_FLAG'))
 
 //myObject == 'Added to CartX'
